@@ -28,7 +28,7 @@ g <- g +
   geom_bar(stat="identity") +
   xlab("Years") +
   ylab(expression("PM2.5 Emissions")) +
-  ggtitle("Total PM2.5 Emission in Baltimore 1999-2008 from coal combustion-related sources")
+  ggtitle("Total PM2.5 Emission in Baltimore 1999-2008 from coal combustion")
 
 print(g)
 
