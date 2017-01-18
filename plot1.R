@@ -17,8 +17,8 @@ png("plot1.png", width = 480, height = 480, units = "px")
 
 barplot((data1$Emissions)/10^6,
         names.arg = data1$year,
-        main="Total PM2.5 Emissions From All US Sources",
-        xlab = "Year", ylab="PM2.5 Emissions (10^6 Tons)"
+        main="Total PM2.5 Emissions from all sources",
+        xlab = "Year", ylab="PM2.5 Emissions"
 )
 
 dev.off()
