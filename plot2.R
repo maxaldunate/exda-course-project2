@@ -18,10 +18,10 @@ data2 <- aggregate(Emissions ~ year, baltimore, sum)
 
 png("plot2.png", width = 480, height = 480, units = "px")
 
-barplot((data2$Emissions)/10^6,
+barplot((data2$Emissions),
         names.arg = data1$year,
-        main="Total PM2.5 Emission in Baltimore 1999-2008",
-        xlab = "Year", ylab="PM2.5 Emissions"
+        main = "Total PM2.5 Emission in Baltimore 1999-2008",
+        xlab = "Years", ylab = "PM2.5 Emissions"
 )
 
 dev.off()
