@@ -25,7 +25,7 @@ png("plot3.png", width = 480, height = 480, units = "px")
 g <- ggplot(data3, aes(x = year, y = Emissions, color = type))
 g <- g + 
   geom_smooth(method = "auto") +
-  xlab("Year") +
+  xlab("Years") +
   ylab(expression("PM2.5 Emissions")) +
   ggtitle("Total PM2.5 Emission in Baltimore 1999-2008 By Type")
 
